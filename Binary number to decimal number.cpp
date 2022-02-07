@@ -11,7 +11,7 @@ class Solution
 		    for(int i=n-1;i>=0;i--){
 		        if(str[i]=='1')ans+=pow(2,n-1-i);
 		    }
-		    
+	
 		    return ans;
 		}
 };
